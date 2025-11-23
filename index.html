@@ -33,7 +33,6 @@
 
     /* HERO / BANNIÈRE */
 
-
     header {
       position: relative;
       min-height: 260px;
@@ -45,21 +44,20 @@
       overflow: hidden;
     }
 
-header::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image:
-    linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.85)),
-    url("images/fnxg-banner.png");
-  background-position:
-    center top,
-    center -280px;
-  background-size: cover;
-  filter: saturate(1.1);
-  z-index: -2;
-}
-
+    header::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.85)),
+        url("images/fnxg-banner.png");
+      background-position:
+        center top,
+        center -280px;
+      background-size: cover;
+      filter: saturate(1.1);
+      z-index: -2;
+    }
 
     header::after {
       content: "";
@@ -256,7 +254,7 @@ header::before {
       <div class="hero-sub">Street Fighter Next Generation – Fan Art Project (non officiel)</div>
       <p class="hero-tagline">
         Nouvelle génération de combattants, héritiers et rivaux des légendes de <strong>Street Fighter</strong>.
-        Pour le 7e tournoi du Street Fighter !
+        Pour le 7<sup>e</sup> tournoi du Street Fighter&nbsp;!
         Ici, tout est fan-made : univers alternatif, personnages inédits et visions du Hado réinventées.
       </p>
     </div>
@@ -268,6 +266,23 @@ header::before {
       <p>
         Ce site présente un projet de fan art autour d’une nouvelle génération de combattants inspirés de
         l’univers <strong>Street Fighter</strong>. Il ne s’agit pas d’un projet officiel, mais d’un hommage créatif.
+      </p>
+    </section>
+
+    <section id="lore">
+      <h2>Contexte / Histoire</h2>
+      <p>
+        Après le 6<sup>e</sup> tournoi Street Fighter, les dégâts et dérives sont tels qu’une loi mondiale
+        interdit tout nouveau tournoi officiel. Dix ans passent. Dans l’ombre, une rumeur grandit :
+        un 7<sup>e</sup> tournoi aura lieu, destiné à éprouver une nouvelle génération de guerriers.
+      </p>
+      <p>
+        Ryu et Chun-Li se retirent, fondent une famille et continuent à s’entraîner avec leurs enfants :
+        Kantao, l’aîné qui choisit la vie de salarié, Ling-Ling, formée au combat comme ses parents,
+        et le petit Ryu-li. Le jour des 6 ans de Ryu-li, un vieil homme nommé Odjin-ashin et le mystérieux
+        Rao Rin attaquent. La maison explose, Ryu et Chun-Li meurent, et Kanto disparaît. Ling-Ling fuit avec
+        son petit frère, croise Ken et lui confie Ryu-li avant de repartir sur une route de vengeance,
+        convaincue que toute sa famille a été anéantie.
       </p>
     </section>
 
@@ -303,7 +318,7 @@ header::before {
         Projet de fan, non commercial.<br>
         <strong>Street Fighter</strong>, <strong>Ryu</strong> et toutes les marques associées sont la propriété de
         <strong> Capcom Co., Ltd.</strong><br>
-        FNXG est un univers alternatif créé par un fan pour le plaisir.
+        SFNXG est un univers alternatif créé par un fan pour le plaisir.
       </p>
       <p class="credits-text">
         Art &amp; concept : ton pseudo / @toncompte.<br>
@@ -313,7 +328,7 @@ header::before {
   </main>
 
   <footer>
-    FNXG – Fan project non officiel. Tous droits réservés à leurs propriétaires respectifs.
+    SFNXG – Fan project non officiel. Tous droits réservés à leurs propriétaires respectifs.
   </footer>
 </body>
 </html>
